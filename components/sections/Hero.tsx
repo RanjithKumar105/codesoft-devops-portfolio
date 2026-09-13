@@ -46,7 +46,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-[95vh] flex items-center justify-center pt-24 sm:pt-28 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden"
+      className="relative min-h-[95vh] flex items-center justify-center pt-24 sm:pt-28 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden w-full"
     >
       {/* Background Grid Pattern & Subtle Monochrome Glows */}
       <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none" />
@@ -74,29 +74,30 @@ export default function Hero() {
           className="lg:col-span-7 space-y-5 sm:space-y-6 text-center lg:text-left"
         >
           {/* Status Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/[0.04] border border-black/10 shadow-sm">
-            <span className="relative flex h-2 w-2">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/[0.04] border border-black/10 shadow-sm max-w-full">
+            <span className="relative flex h-2 w-2 flex-shrink-0">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-black" />
             </span>
-            <span className="text-[10px] sm:text-xs font-bold text-gray-800 uppercase tracking-widest">
+            <span className="text-[9px] sm:text-xs font-bold text-gray-800 uppercase tracking-widest leading-tight break-words">
               {portfolioData.personal.availability}
             </span>
           </div>
 
           {/* Main Title & Typewriter */}
           <div className="space-y-2">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter text-black uppercase leading-[1.05]">
+            <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter text-black uppercase leading-[1.05]">
               Hi, I&apos;m{" "}
               <span className="block">
                 {portfolioData.personal.name}
               </span>
             </h1>
-            <div className="h-9 sm:h-12 flex items-center justify-center lg:justify-start mt-3 sm:mt-4">
-              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-black uppercase tracking-tight">
+            {/* Typewriter Row */}
+            <div className="min-h-[2.25rem] sm:h-12 w-full flex items-center justify-center lg:justify-start mt-3 sm:mt-4 overflow-hidden">
+              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-black uppercase tracking-tight leading-tight break-words min-w-0">
                 {displayedText}
               </span>
-              <span className="w-0.5 sm:w-1 h-5 sm:h-7 ml-1.5 sm:ml-2 bg-black animate-pulse inline-block" />
+              <span className="w-0.5 sm:w-1 h-5 sm:h-7 ml-1.5 sm:ml-2 bg-black animate-pulse inline-block flex-shrink-0" />
             </div>
           </div>
 
@@ -168,7 +169,7 @@ export default function Hero() {
             <div className="absolute -inset-1.5 rounded-full bg-gray-200 opacity-60 group-hover:opacity-100 blur-md transition duration-500 animate-spin-slow" />
 
             {/* Circular Floating Container */}
-            <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full p-2 bg-white border-2 border-black shadow-2xl animate-float overflow-hidden">
+            <div className="relative w-48 h-48 xs:w-56 xs:h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full p-2 bg-white border-2 border-black shadow-2xl animate-float overflow-hidden">
               <div className="w-full h-full rounded-full overflow-hidden relative group-hover:scale-105 transition-transform duration-500 bg-gray-100">
                 <ImageWithFallback
                   src={portfolioData.personal.images.heroImage}
@@ -187,7 +188,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
-              className="absolute -bottom-3 -left-2 sm:bottom-4 sm:-left-6 px-3 sm:px-4 py-1.5 sm:py-2 rounded-2xl bg-black border-2 border-black shadow-xl flex items-center gap-2 sm:gap-2.5"
+              className="absolute -bottom-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-4 sm:-left-6 px-3 sm:px-4 py-1.5 sm:py-2 rounded-2xl bg-black border-2 border-black shadow-xl flex items-center gap-2 sm:gap-2.5 whitespace-nowrap"
             >
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white/10 flex items-center justify-center text-white">
                 <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4" />

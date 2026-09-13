@@ -8,6 +8,10 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        "xxs": "320px",
+        "xs": "375px",
+      },
       colors: {
         primary: "#ffffff",
         secondary: "#f8f9fa",

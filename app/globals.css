@@ -31,6 +31,8 @@
 html {
   scroll-behavior: smooth;
   color-scheme: light;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -38,6 +40,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
+  max-width: 100vw;
   background-image: 
     radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 0, 0, 0.03), transparent),
     radial-gradient(ellipse 60% 40% at 80% 60%, rgba(0, 0, 0, 0.02), transparent),
@@ -45,6 +48,18 @@ body {
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mobile Overflow Prevention */
+img, video, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent any element from causing horizontal scroll */
+.overflow-x-safe {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Focus Visible for Keyboard Accessibility */

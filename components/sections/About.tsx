@@ -23,7 +23,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Column: Two Staggered Glassmorphic Photos with 3D Tilt Hover */}
           <div className="lg:col-span-5 relative">
-            <div className="relative w-full max-w-sm sm:max-w-md mx-auto aspect-[4/5] sm:aspect-square flex items-center justify-center">
+            <div className="relative w-full max-w-sm sm:max-w-md mx-auto aspect-[3/4] sm:aspect-square flex items-center justify-center overflow-visible">
               {/* Photo 1: Background Staggered Top-Left Card */}
               <motion.div
                 initial={{ opacity: 0, x: -30, rotate: -4 }}

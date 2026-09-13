@@ -125,7 +125,7 @@ export default function Contact() {
                     <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-white border border-black/10 shadow-sm flex items-center justify-center text-black flex-shrink-0">
                       <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                     </div>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <p className="text-[10px] sm:text-[11px] text-gray-600 uppercase font-bold">
                         Email
                       </p>
