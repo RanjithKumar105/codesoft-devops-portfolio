@@ -8,7 +8,7 @@ import { portfolioData } from "@/data/portfolio";
 
 const titles = [
   "AI & ML Engineer",
-  "Computer Vision Enthusiast",
+  "Machine Learning Enthusiast",
   "Full Stack Developer",
   "Autonomous Systems Builder",
 ];

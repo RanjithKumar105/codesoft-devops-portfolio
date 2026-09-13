@@ -113,7 +113,7 @@ export default function DeliveryTruckSkills() {
                       STACK-EXPRESS
                     </span>
                     <span className="text-[9px] bg-white/10 px-1 rounded text-slate-300">
-                      25 CRATES
+                      27 CRATES
                     </span>
                   </div>
 

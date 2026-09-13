@@ -83,6 +83,8 @@ const SKILL_CATEGORIES = [
       { name: "Docker", desc: "Container orchestration" },
       { name: "Jenkins", desc: "CI/CD automation" },
       { name: "AWS", desc: "Cloud infrastructure" },
+      { name: "Prometheus", desc: "Metrics & alerting" },
+      { name: "Grafana (Basic)", desc: "Data dashboards" },
     ],
   },
   {
@@ -986,7 +988,7 @@ export default function AIConsoleSkills() {
                   <span className="text-gray-400">·</span>
                   <span className="text-gray-600 font-bold">6 modules loaded</span>
                   <span className="text-gray-400">·</span>
-                  <span className="text-gray-600 font-bold">25 skills verified</span>
+                  <span className="text-gray-600 font-bold">27 skills verified</span>
                 </div>
                 <div
                   className="h-px w-32"
@@ -1012,8 +1014,8 @@ export default function AIConsoleSkills() {
                   { label: "Languages", count: "6", color: "#000000" },
                   { label: "AI / ML", count: "7", color: "#222222" },
                   { label: "Frameworks", count: "5", color: "#444444" },
-                  { label: "DevOps", count: "4", color: "#111111" },
-                  { label: "Total Skills", count: "25+", color: "#333333" },
+                  { label: "DevOps", count: "6", color: "#111111" },
+                  { label: "Total Skills", count: "27+", color: "#333333" },
                 ].map((s) => (
                   <motion.div
                     key={s.label}

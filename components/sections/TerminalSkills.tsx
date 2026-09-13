@@ -31,6 +31,7 @@ import {
   Cog,
   PlayCircle,
   BookOpen,
+  Activity,
 } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { portfolioData, SkillCategory, SkillItem } from "@/data/portfolio";
@@ -61,6 +62,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   PlayCircle: PlayCircle,
   BookOpen: BookOpen,
   Wrench: Wrench,
+  Activity: Activity,
 };
 
 const compileItems = [
@@ -82,6 +84,8 @@ const compileItems = [
   "AWS",
   "VS Code",
   "Google Colab",
+  "Prometheus",
+  "Grafana",
 ];
 
 export default function TerminalSkills() {
@@ -351,7 +355,7 @@ export default function TerminalSkills() {
                     <span className="text-emerald-400">skills --status</span>
                   </div>
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-[11px] sm:text-xs text-slate-400">
-                    <span className="text-emerald-400 font-medium">✓ 25 Skills Loaded</span>
+                    <span className="text-emerald-400 font-medium">✓ 27 Skills Loaded</span>
                     <span>•</span>
                     <span>AI Stack Ready</span>
                     <span>•</span>
