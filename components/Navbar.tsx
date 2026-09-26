@@ -87,7 +87,7 @@ export default function Navbar() {
             aria-label="Scroll to top"
           >
             <div className="w-9 h-9 rounded-xl bg-white flex items-center justify-center text-black font-bold text-base shadow-sm group-hover:scale-105 transition-transform duration-200">
-              RK
+              AM
             </div>
             <span className="hidden sm:inline font-bold text-white tracking-wide">
               {portfolioData.personal.name}
@@ -180,7 +180,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between px-5 pt-6 pb-4 border-b border-white/10 flex-shrink-0">
                 <div className="flex items-center gap-2.5">
                   <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center text-black font-bold text-sm flex-shrink-0">
-                    RK
+                    AM
                   </div>
                   <span className="text-sm font-bold text-white tracking-wide truncate">
                     {portfolioData.personal.name}

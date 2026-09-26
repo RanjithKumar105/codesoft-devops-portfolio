@@ -13,7 +13,7 @@ export default function Education() {
         <SectionHeading
           badge="Academic Background"
           title="Education Timeline"
-          subtitle="Strong mathematical foundations, computer science principles, and artificial intelligence specialization."
+          subtitle="Strong mathematical foundations, computer science principles, and cloud & DevOps specialization."
         />
 
         <div className="relative border-l-2 border-black/15 ml-3 sm:ml-8 space-y-7 sm:space-y-10">

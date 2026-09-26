@@ -40,11 +40,11 @@ export async function POST(request: Request) {
 
     const resend = new Resend(resendApiKey);
 
-    // Send email to Gmail address
-    // Since onboarding@resend.dev is the default free testing sender, Resend allows sending to the registered account email (ranjithkumar100506@gmail.com)
+    // Demo portfolio: contact form emails are sent to the configured recipient address.
+    // Set CONTACT_EMAIL environment variable or update the address below for real deployments.
     const { data, error } = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
-      to: ["ranjithkumar100506@gmail.com"],
+      to: ["arjun.mehta.dev@example.com"],
       replyTo: cleanEmail,
       subject: cleanSubject,
       html: `

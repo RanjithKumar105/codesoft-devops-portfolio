@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
         <div className="flex items-center gap-3 text-center sm:text-left">
           <div className="w-8 h-8 rounded-lg bg-black flex items-center justify-center text-white font-bold text-sm shadow-md flex-shrink-0">
-            RK
+            AM
           </div>
           <div>
             <p className="text-sm font-black text-black tracking-wide">
@@ -52,7 +52,7 @@ export default function Footer() {
           <a
             href={portfolioData.social.email}
             className="p-2.5 rounded-full bg-black/5 hover:bg-black/10 text-gray-600 hover:text-black transition-all duration-200 hover:scale-110 min-w-[40px] min-h-[40px] flex items-center justify-center"
-            aria-label="Email Ranjith"
+            aria-label="Email Arjun"
           >
             <Mail className="w-4 h-4" />
           </a>

@@ -16,8 +16,8 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           badge="Engineering Profile"
-          title="About Ranjith Kumar"
-          subtitle="A dedicated problem solver engineering intelligent AI systems and high-throughput software architectures."
+          title="About Arjun Mehta"
+          subtitle="A dedicated developer building scalable web applications and automating deployments with modern DevOps practices."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -35,9 +35,9 @@ export default function About() {
               >
                 <div className="relative w-full h-full rounded-2xl overflow-hidden">
                   <ImageWithFallback
-                    src="/images/about-3.jpeg"
-                    alt="Ranjith Kumar in Lab"
-                    fallbackText="RK Photo 1"
+                    src="/images/avatar.jpeg"
+                    alt="Arjun Mehta at work"
+                    fallbackText="AM Photo 1"
                     fill
                     sizes="(max-width: 640px) 65vw, (max-width: 1024px) 300px, 300px"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 grayscale group-hover:grayscale-0"
@@ -45,7 +45,7 @@ export default function About() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-3 left-3 right-3 text-left">
                     <span className="text-[11px] font-bold text-white uppercase tracking-wider">
-                      AI & Vision Research
+                      Dev & DevOps Work
                     </span>
                   </div>
                 </div>
@@ -62,9 +62,9 @@ export default function About() {
               >
                 <div className="relative w-full h-full rounded-2xl overflow-hidden">
                   <ImageWithFallback
-                    src="/images/about-2.jpeg"
-                    alt="Ranjith Kumar"
-                    fallbackText="Ranjith Kumar"
+                    src="/images/avatar.jpeg"
+                    alt="Arjun Mehta"
+                    fallbackText="AM Photo"
                     fill
                     sizes="(max-width: 640px) 65vw, (max-width: 1024px) 300px, 300px"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 grayscale group-hover:grayscale-0"
@@ -89,7 +89,7 @@ export default function About() {
               <h3 className="text-2xl sm:text-3xl font-black text-black tracking-tight uppercase">
                 Engineering at the Intersection of{" "}
                 <span className="block text-gray-600">
-                  Machine Learning & Production Code
+                  Full Stack & DevOps
                 </span>
               </h3>
 

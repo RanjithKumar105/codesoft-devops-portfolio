@@ -21,29 +21,11 @@ const SKILL_CATEGORIES = [
     glow: "rgba(0,0,0,0.15)",
     iconEmoji: "{ }",
     skills: [
-      { name: "Python", desc: "Primary AI/ML language" },
-      { name: "Java", desc: "OOP & backend systems" },
+      { name: "Python", desc: "Scripting & automation" },
       { name: "JavaScript", desc: "Full-stack scripting" },
-      { name: "HTML", desc: "Semantic markup" },
-      { name: "CSS", desc: "Responsive styling" },
-      { name: "SQL", desc: "Data querying" },
-    ],
-  },
-  {
-    id: "ai",
-    name: "Artificial Intelligence",
-    label: "AI/ML",
-    color: "#222222",
-    glow: "rgba(0,0,0,0.15)",
-    iconEmoji: "AI",
-    skills: [
-      { name: "Machine Learning", desc: "Core ML algorithms" },
-      { name: "YOLOv8", desc: "Real-time object detection" },
-      { name: "OpenCV", desc: "Computer vision" },
-      { name: "NumPy", desc: "Numerical computing" },
-      { name: "Pandas", desc: "Data manipulation" },
-      { name: "Scikit-Learn", desc: "ML pipeline" },
-      { name: "Data Visualization", desc: "Insights & charts" },
+      { name: "TypeScript", desc: "Type-safe development" },
+      { name: "HTML5", desc: "Semantic markup" },
+      { name: "CSS3", desc: "Responsive styling" },
     ],
   },
   {
@@ -56,6 +38,7 @@ const SKILL_CATEGORIES = [
     skills: [
       { name: "React", desc: "Component-driven UI" },
       { name: "Next.js", desc: "Full-stack React framework" },
+      { name: "Tailwind CSS", desc: "Utility-first styling" },
     ],
   },
   {
@@ -67,8 +50,9 @@ const SKILL_CATEGORIES = [
     iconEmoji: "[ ]",
     skills: [
       { name: "Node.js", desc: "Server-side JS runtime" },
+      { name: "Express.js", desc: "REST API framework" },
       { name: "MongoDB", desc: "NoSQL document database" },
-      { name: "Redis", desc: "In-memory caching" },
+      { name: "PostgreSQL", desc: "Relational database" },
     ],
   },
   {
@@ -79,25 +63,15 @@ const SKILL_CATEGORIES = [
     glow: "rgba(0,0,0,0.15)",
     iconEmoji: ">>",
     skills: [
-      { name: "Git", desc: "Version control" },
+      { name: "Git & GitHub", desc: "Version control" },
       { name: "Docker", desc: "Container orchestration" },
       { name: "Jenkins", desc: "CI/CD automation" },
+      { name: "Kubernetes", desc: "Container management" },
+      { name: "GitHub Actions", desc: "Workflow automation" },
       { name: "AWS", desc: "Cloud infrastructure" },
+      { name: "Linux", desc: "Server administration" },
       { name: "Prometheus", desc: "Metrics & alerting" },
-      { name: "Grafana (Basic)", desc: "Data dashboards" },
-    ],
-  },
-  {
-    id: "tools",
-    name: "Tools",
-    label: "TOOLS",
-    color: "#555555",
-    glow: "rgba(0,0,0,0.15)",
-    iconEmoji: "//",
-    skills: [
-      { name: "VS Code", desc: "Primary IDE" },
-      { name: "Google Colab", desc: "Cloud ML notebooks" },
-      { name: "Jupyter Notebook", desc: "Interactive computing" },
+      { name: "Grafana", desc: "Data dashboards" },
     ],
   },
 ];
@@ -125,10 +99,10 @@ const SCAN_LINES = [
   { text: "", type: "blank", delay: 850 },
   { text: "Identity Detected", type: "ready", delay: 950 },
   { text: "─────────────────────────────", type: "divider", delay: 1050 },
-  { text: "Name    : Ranjith Kumar", type: "data", delay: 1150 },
-  { text: "Role    : AI & ML Engineer", type: "data", delay: 1350 },
+  { text: "Name    : Arjun Mehta", type: "data", delay: 1150 },
+  { text: "Role    : Full Stack Developer & DevOps Enthusiast", type: "data", delay: 1350 },
   { text: "Status  : ● Available for Opportunities", type: "online", delay: 1550 },
-  { text: "Stack   : Python · React · Next.js · ML", type: "data", delay: 1750 },
+  { text: "Stack   : React · Next.js · Node.js · Docker", type: "data", delay: 1750 },
   { text: "Confidence: 99.98%", type: "data", delay: 1950 },
   { text: "─────────────────────────────", type: "divider", delay: 2100 },
   { text: "✦ Verification Complete", type: "ready", delay: 2250 },
@@ -368,8 +342,8 @@ function ConsoleContent({ onClose, stack }: { onClose: () => void; stack: string
       <div className="p-4 font-mono text-[11px] space-y-1 leading-[1.6] overflow-y-auto">
         <div className="text-slate-600">developer@portfolio:~$</div>
         <div className="text-slate-400">whoami</div>
-        <div className="text-blue-300 font-semibold mt-0.5">Ranjith Kumar</div>
-        <div className="text-purple-300">AI &amp; ML Engineer</div>
+        <div className="text-blue-300 font-semibold mt-0.5">Arjun Mehta</div>
+        <div className="text-purple-300">Full Stack Developer &amp; DevOps Enthusiast</div>
 
         <div className="my-2.5 border-t border-white/[0.06]" />
 

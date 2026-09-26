@@ -13,7 +13,7 @@ export default function Experience() {
         <SectionHeading
           badge="Work History"
           title="Industry Experience"
-          subtitle="Hands-on internship experience in machine learning pipelines, cloud AI, and model deployment."
+          subtitle="Hands-on internship experience in containerized deployments, CI/CD automation, and cloud infrastructure."
         />
 
         <div className="relative border-l-2 border-black/15 ml-3 sm:ml-8 space-y-8 sm:space-y-12">

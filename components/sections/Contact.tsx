@@ -104,7 +104,7 @@ export default function Contact() {
         <SectionHeading
           badge="Get in Touch"
           title="Let's Build Together"
-          subtitle="Interested in collaborating on AI/ML research, discussing software engineering opportunities, or just having a tech chat?"
+          subtitle="Interested in collaborating on full-stack or DevOps projects, discussing software engineering opportunities, or just having a tech chat?"
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">

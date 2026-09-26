@@ -31,7 +31,7 @@ export default function Certifications() {
         <SectionHeading
           badge="Credentials & Mastery"
           title="Professional Certifications"
-          subtitle="Accredited certifications in Cloud Computing, AI Foundations, Machine Learning, and Web Technologies."
+          subtitle="Accredited demo certifications in Cloud Computing, Docker, Kubernetes, and Git essentials."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">

@@ -7,10 +7,10 @@ import ImageWithFallback from "@/components/ui/ImageWithFallback";
 import { portfolioData } from "@/data/portfolio";
 
 const titles = [
-  "AI & ML Engineer",
-  "Machine Learning Enthusiast",
   "Full Stack Developer",
-  "Autonomous Systems Builder",
+  "DevOps Enthusiast",
+  "Cloud & Container Engineer",
+  "React & Next.js Builder",
 ];
 
 export default function Hero() {
@@ -152,7 +152,7 @@ export default function Hero() {
             </a>
             <div className="h-4 w-px bg-black/20 mx-0.5 sm:mx-1" />
             <span className="text-[10px] sm:text-xs text-black font-bold uppercase tracking-wider">
-              SIT Mangaluru &apos;27 • AI & ML
+              TechNova Institute &apos;27 • CSE
             </span>
           </div>
         </motion.div>
@@ -174,7 +174,7 @@ export default function Hero() {
                 <ImageWithFallback
                   src={portfolioData.personal.images.heroImage}
                   alt={portfolioData.personal.name}
-                  fallbackText="Ranjith Kumar"
+                  fallbackText="Arjun Mehta"
                   fill
                   sizes="(max-width: 640px) 224px, (max-width: 768px) 288px, (max-width: 1024px) 320px, 384px"
                   className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
@@ -198,7 +198,7 @@ export default function Hero() {
                   Academic Focus
                 </p>
                 <p className="text-[11px] sm:text-xs font-bold text-white">
-                  B.E. AI & ML (CGPA 8.53)
+                  B.Tech CSE (CGPA 8.2)
                 </p>
               </div>
             </motion.div>
