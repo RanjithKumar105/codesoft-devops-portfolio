@@ -1,4 +1,4 @@
-# Arjun Mehta — Demo Developer Portfolio
+# Arjun Mehta â€” Demo Developer Portfolio
 
 A modern, high-performance portfolio website built with Next.js 14, Tailwind CSS, and Framer Motion.
 This project features a fully automated DevOps pipeline using Jenkins, Docker, and Kubernetes.
@@ -52,8 +52,8 @@ The included `Jenkinsfile` handles the Continuous Integration pipeline:
 ## ?? Kubernetes Deployment
 
 The `/k8s` directory contains:
-- `deployment.yaml` — Pod and container configuration
-- `service.yaml` — Service exposure configuration
+- `deployment.yaml` â€” Pod and container configuration
+- `service.yaml` â€” Service exposure configuration
 
 ## ?? Project Structure
 
